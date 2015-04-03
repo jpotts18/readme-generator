@@ -100,6 +100,6 @@ File.open('temp.md','w') do |f|
     f.puts text
     f.puts ''
 	end
-
-
 end
+
+system 'open', 'temp.md'
